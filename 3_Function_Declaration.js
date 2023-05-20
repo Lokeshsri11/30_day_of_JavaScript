@@ -53,4 +53,13 @@ const totalCost = costOfMonitors(5,4);
 console.log(totalCost);
 
 
-
+//function expression
+const plantNeedsWater = function (day) {
+    if (day === 'Wednesday') {
+        return true;
+    } else {
+        return false;
+    }
+};
+plantNeedsWater('Tuesday');
+console.log(plantNeedsWater('Tuesday'));
