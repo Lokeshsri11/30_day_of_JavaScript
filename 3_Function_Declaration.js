@@ -41,4 +41,4 @@ const numOfMonitors = monitorCount(5,4);
 console.log(numOfMonitors);
 
 
-//Helper Functions
+//Helper Function
