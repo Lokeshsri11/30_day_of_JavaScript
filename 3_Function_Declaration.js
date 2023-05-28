@@ -63,3 +63,12 @@ const plantNeedsWater = function (day) {
 };
 plantNeedsWater('Tuesday');
 console.log(plantNeedsWater('Tuesday'));
+
+//Arrow Fuction 
+const plantNeedsWaters = (day) => {
+    if (day == 'Wednesday') {
+        return true;
+    } else {
+        return false;
+    }
+}
